@@ -4,6 +4,6 @@ pygments: true
 paginate: 8
 permalink: /:title
 title: alvin.fu
-url: http://fupengfei.github.io/blog
+url: http://fupengfei.github.io/alvin.fu
 feed: /atom.xml
-author_info: <a href="http://fupengfei.github.io/blog">alvin.fu</a>
+author_info: <a href="http://fupengfei.github.io/alvin.fu">alvin.fu</a>

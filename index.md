@@ -16,12 +16,12 @@ layout: home
         {% for post in site.categories.blog %}
             <li>
                 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                <div class="title-desc">{{ post.description }}</div>
+                <div class="title-desc">{{ post.description }}<a href="http://m.kuaidi100.com" target="_blank">快递查询</a></div>
             </li>
         {% endfor %}
         </ul>
     </div>
     <div class="aside">
     </div>
-    <a href="http://m.kuaidi100.com" target="_blank">快递查询</a>
+    
 </div>

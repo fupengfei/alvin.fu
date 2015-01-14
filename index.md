@@ -23,4 +23,5 @@ layout: home
     </div>
     <div class="aside">
     </div>
+    <a href="http://m.kuaidi100.com" target="_blank">快递查询</a>
 </div>

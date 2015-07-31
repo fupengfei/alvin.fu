@@ -5,15 +5,17 @@ layout: home
 <div class="index-content blog">
     <div class="section">
         <ul class="artical-cate">
-            <li class="on"><a href="{{ site.url }}"><span>Blog</span></a></li>
+           <!--  <li class="on"><a href="{{ site.url }}"><span>Blog</span></a></li>
             <li style="text-align:center"><a href="{{ site.url }}/opinion"><span>Opinion</span></a></li>
             <li style="text-align:right"><a href="{{ site.url }}/project"><span>Project</span></a></li>
+             -->
+             {% include catalog.md %}
         </ul>
 
         <div class="cate-bar"><span id="cateBar"></span></div>
 
         <ul class="artical-list">
-            1
+            
         {% for post in site.categories.project %}
             <li>
                 <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>

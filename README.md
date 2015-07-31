@@ -1,3 +1,3 @@
-blog
+my blog
 ====
-Here <a href=“http://fupengfei.github.io/blog” >blog</a>
+Here <a href=“www.fpfos.com” >blog</a>

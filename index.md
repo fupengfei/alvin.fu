@@ -5,7 +5,10 @@ layout: home
 <div class="index-content blog">
     <div class="section">
         <ul class="artical-cate">
-           {% include catalog.md %}
+           <!-- {% include catalog.md %} -->
+            <li class="on" ><a href="{{ site.url }}"><span>Blog</span></a></li>
+ <li  style="text-align:center"><a href="{{ site.url }}/project"><span>Project</span></a></li>
+ <li style="text-align:right"><a href="http://job.oschina.net/resume/share/b461df" target="view_window" ><span>Resume</span></a></li>
         </ul>
 
         <div class="cate-bar"><span id="cateBar"></span></div>
